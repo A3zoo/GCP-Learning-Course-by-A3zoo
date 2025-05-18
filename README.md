@@ -1,94 +1,94 @@
 # ☁️ Google Cloud Platform (GCP) Learning Roadmap for Software & AI Engineers
 
-Lộ trình học GCP trong **4 tuần** – dành cho Software Engineers, Backend Developers, AI/NLP Engineers muốn triển khai ứng dụng, sử dụng ML services, và hiểu rõ hạ tầng cloud hiện đại.
+This is a **4-week roadmap** to help Software Engineers, Backend Developers, and AI/NLP Engineers get hands-on with GCP services — from fundamentals to deploying applications, managing data, and leveraging ML services.
 
 ---
 
-## 📅 Weekly Breakdown
+## 📅 Weekly Plan
 
-### ✅ Tuần 1: GCP Fundamentals + gcloud CLI
+### ✅ Week 1: GCP Fundamentals + gcloud CLI
 
-**Nội dung:**
-- Làm quen với GCP Console
-- Projects, Billing Accounts
-- Identity & Access Management (IAM)
-- Service Accounts & Role Permissions
-- Cài đặt và sử dụng `gcloud CLI`
+**Topics:**
+- Introduction to GCP Console & Projects
+- Billing accounts and quotas
+- IAM (Identity & Access Management)
+- Service Accounts & Roles
+- Install and use `gcloud CLI`
 
-**Thực hành:**
-- Tạo Project mới trên GCP
-- Bật API cần thiết
-- Tạo Cloud Storage Bucket và thử thao tác với `gsutil`
-
----
-
-### ✅ Tuần 2: Deploy App + Cloud Storage
-
-**Nội dung:**
-- Giới thiệu Cloud Run (serverless container)
-- App Engine: chạy web app không cần quản lý server
-- Cloud Storage: lưu trữ file, ảnh, checkpoints ML
-
-**Thực hành:**
-- Deploy một app Python (Flask/FastAPI) lên Cloud Run
-- Upload & truy xuất file từ Cloud Storage
-- So sánh Cloud Run vs App Engine
+**Hands-on:**
+- Create a new GCP Project
+- Enable necessary APIs
+- Create a Cloud Storage bucket and interact with it using `gsutil`
 
 ---
 
-### ✅ Tuần 3: Databases + BigQuery
+### ✅ Week 2: Deploying Apps + Cloud Storage
 
-**Nội dung:**
-- Cloud SQL (MySQL/PostgreSQL managed)
-- Firestore: NoSQL cho web/mobile app
-- BigQuery: phân tích dữ liệu lớn bằng SQL
+**Topics:**
+- Cloud Run (serverless containers)
+- App Engine (PaaS for Python/web apps)
+- Cloud Storage (store files, images, ML checkpoints)
 
-**Thực hành:**
-- Tạo Cloud SQL instance và kết nối từ Python app
-- Tạo Firestore collection, thực hiện CRUD
-- Dùng BigQuery để query file CSV hoặc JSON lớn
-
----
-
-### ✅ Tuần 4: AI, CI/CD, Monitoring & Security
-
-**Nội dung:**
-- Vertex AI: dùng pretrained NLP model (Text Classification, Sentiment)
-- Cloud Build: tạo pipeline CI/CD deploy từ GitHub
-- Cloud Logging & Monitoring
-- Bảo mật: IAM Roles, tránh lộ API Key, quản lý quyền truy cập
-
-**Thực hành:**
-- Deploy mô hình NLP lên Vertex AI
-- Build CI/CD pipeline cho app Python
-- Xem logs, tạo alert với Cloud Monitoring
-- Audit quyền và service account access
+**Hands-on:**
+- Deploy a Python (Flask/FastAPI) app to Cloud Run
+- Upload & retrieve files using Cloud Storage
+- Compare Cloud Run vs App Engine
 
 ---
 
-## 🔧 Công cụ & Tài nguyên khuyên dùng:
+### ✅ Week 3: Databases + BigQuery
 
-- [Google Cloud Skills Boost (Qwiklabs)](https://www.cloudskillsboost.google/) – học thực chiến miễn phí
-- [Coursera: GCP Fundamentals](https://www.coursera.org/learn/gcp-fundamentals)
-- [gcloud CLI docs](https://cloud.google.com/sdk/gcloud)
+**Topics:**
+- Cloud SQL (managed MySQL/PostgreSQL)
+- Firestore (NoSQL database)
+- BigQuery (large-scale analytics with SQL)
+
+**Hands-on:**
+- Set up Cloud SQL and connect it to your app
+- Perform CRUD operations with Firestore
+- Run queries on large CSV/JSON datasets using BigQuery
+
+---
+
+### ✅ Week 4: Vertex AI, CI/CD, Monitoring & Security
+
+**Topics:**
+- Vertex AI (use pretrained NLP models)
+- Cloud Build (CI/CD pipelines)
+- Cloud Monitoring & Logging
+- Security basics: IAM roles, service account keys, access control
+
+**Hands-on:**
+- Run NLP tasks (e.g., sentiment analysis) with Vertex AI
+- Set up CI/CD pipeline with GitHub + Cloud Build
+- Explore logging, create alerts and metrics dashboards
+- Audit service accounts and apply least-privilege access
+
+---
+
+## 🔧 Recommended Tools & Resources
+
+- [Google Cloud Skills Boost (Qwiklabs)](https://www.cloudskillsboost.google/) – hands-on GCP labs
+- [Coursera: Google Cloud Fundamentals](https://www.coursera.org/learn/gcp-fundamentals)
+- [gcloud CLI Documentation](https://cloud.google.com/sdk/gcloud)
 - [Cloud Run Quickstart](https://cloud.google.com/run/docs/quickstarts)
-- [Vertex AI NLP Demo](https://cloud.google.com/vertex-ai/docs/nlp)
+- [Vertex AI NLP Docs](https://cloud.google.com/vertex-ai/docs/nlp)
 
 ---
 
-## 🧠 Gợi ý mini project
+## 💡 Suggested Final Project
 
-> Tạo 1 Python web app (Flask hoặc FastAPI) có:
-> - Giao diện upload file (Cloud Storage)
-> - Lưu metadata vào Firestore
-> - Phân tích nội dung văn bản bằng Vertex AI NLP
-> - Triển khai bằng Cloud Run và CI/CD với Cloud Build
+> Build a small Python web app (Flask/FastAPI) that:
+> - Lets users upload files (stored in Cloud Storage)
+> - Saves file metadata to Firestore
+> - Runs text analysis using Vertex AI NLP
+> - Is deployed with Cloud Run and auto-deployed via Cloud Build
 
 ---
 
-## 👨‍💻 Tác giả
+## 👨‍💻 Author
 
-**Long** – AI/NLP Engineer | Passionate about Cloud, MLOps & Open Source  
+**Duy** – SE/NLP Engineer | Passionate about Cloud, MLOps & Open Source  
 _“Deploy less, automate more, think bigger.”_ 🚀
 
 ---
